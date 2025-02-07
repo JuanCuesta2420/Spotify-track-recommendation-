@@ -1,4 +1,4 @@
-Spotify Recommendation System Project
+#Spotify Recommendation System Project
 
 Project Overview: 
     This project focuses on building a Spotify Recommendation System that suggests songs based on their musical characteristics such as BPM (beats per minute), energy, and other audio features. The system takes a given track and recommends a list of 10 similar songs that match the musical preferences derived from a dataset of 30,000 tracks.
