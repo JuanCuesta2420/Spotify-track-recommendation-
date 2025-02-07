@@ -7,6 +7,7 @@ Project Overview:
 Data Source:
   
   The dataset used contains information on Spotify tracks, including:
+   
     - Track ID
     - Artist Name
     - Album Name
@@ -17,6 +18,7 @@ Data Source:
 
 
 Key Steps & Methodologies Used: 
+   
     - Data Cleaning & Preprocessing
     - Removed unnecessary columns (e.g., Unnamed: 0).
     - Handled missing values by dropping incomplete records.
@@ -33,6 +35,7 @@ Used musical attributes such as:
 
 
 Machine Learning Models Used
+   
     - K-Means Clustering: Grouped songs into clusters based on their audio features.
     - Cosine Similarity: Measured the similarity between songs based on feature vectors.
     - Nearest Neighbors (KNN Algorithm): Identified the top 10 most similar songs for a given track.
@@ -40,15 +43,18 @@ Machine Learning Models Used
 
 
 Recommendation Process
+    
     - User inputs a song they like.
     - The system finds the closest matching cluster.
     - Using KNN and Cosine Similarity, it recommends 10 similar tracks.
     - The system returns a personalized playlist.
 
 Visualization & Analysis:     
+   
     - Built scatter plots and heatmaps to visualize the relationships between different audio features.
     - Cluster visualizations to showcase how similar songs are grouped.
 
 Results & Impact
+   
     - The recommendation system effectively suggests songs with similar moods, energy levels, and styles.
     - Users receive playlists that match their listening preferences based on objective musical traits rather than subjective tagging.
